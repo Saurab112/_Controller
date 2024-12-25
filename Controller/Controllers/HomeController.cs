@@ -19,9 +19,9 @@ namespace _Controller.Controllers
 		//JsonResult
 		public JsonResult Person()
 		{
-			Person person = new Person() { person_id = Guid.NewGuid(), first_name="saurab", last_name = "raj", age = 16 };
+			Person person = new Person() { person_id = Guid.NewGuid(), first_name = "saurab", last_name = "raj", age = 16 };
 			return Json(person);
-			
+
 
 		}
 		[Route("file-download1")]
@@ -66,32 +66,27 @@ namespace _Controller.Controllers
 			ViewBag.Message = $"Redirected to About with ID: {id}";
 			return View();
 		}
-    
 
-		public IActionResult ThankYou()
-		{
-			return View();
-		}
 
 		[Route("book")]
-		public IActionResult Index1()    //http://localhost:5176/book?bookid=10&isloggedin=true  -> opens sample.pdf
+		public IActionResult Index1()    //http://localhost:5176/book?bookId=10&isloggedin=true  -> opens sample.pdf
 		{
 			//Book id should be applied
-			if (!Request.Query.ContainsKey("bookid"))
+			if (!Request.Query.ContainsKey("bookId"))
 			{
 				Response.StatusCode = 400;
 				return Content("Book id is not supplied");
 			}
 
 			//Book id can't be empty
-			if (string.IsNullOrEmpty(Convert.ToString(Request.Query["bookid"])))
+			if (string.IsNullOrEmpty(Convert.ToString(Request.Query["bookId"])))
 			{
 				Response.StatusCode = 400;
 				return Content("Book id can't be null or empty");
 			}
 
 			//Book id should be between 1 to 1000
-			int bookId = Convert.ToInt16(ControllerContext.HttpContext.Request.Query["bookid"]);
+			int bookId = Convert.ToInt16(ControllerContext.HttpContext.Request.Query["bookId"]);
 			if (bookId <= 0)
 			{
 				Response.StatusCode = 400;
@@ -111,8 +106,21 @@ namespace _Controller.Controllers
 			}
 
 			//return File("/sample.pdf", "application/pdf");
-			//return new RedirectToActionResult("Books", "Store", new { }); //302 - Found
-			return new RedirectToActionResult("Book", "Store", new { }, permanent: true); //301 - Moved permanently
+			//return new RedirectToActionResult("Books", "Store", new { id = bookId }); //302 - Found
+			//return new RedirectToActionResult("Book", "Store", new { id = bookId }, permanent: true); //301 - Moved permanently
+
+			//302 - Found - LocalRedirectResult
+			//return new LocalRedirectResult($"store/books/{id}"); //302 - Found
+			//return LocalRedirect($"store/books/{id}"); //302 - Found
+
+			//301 - Moved Permanently - LocalRedirectResult
+			return new LocalRedirectResult($"store/books/{bookId}", true); //301 - Moved Permanently
+																		   //return LocalRedirectPermanent($"store/books/{id}"); //301 - Moved Permanently
+
+			//return Redirect($"store/books/{id}"); //302 - Found
+			//return RedirectPermanent($"store/books/{bookId}"); //301 - Moved Permanently
 		}
 	}
 }
+
+
