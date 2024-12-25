@@ -1,5 +1,88 @@
 {
   "Version": 1,
   "ManifestType": "Build",
-  "Endpoints": []
+  "Endpoints": [
+    {
+      "Route": "Sample.977mfnbbh5.pdf",
+      "AssetFile": "Sample.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "81645"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9WgM+6cAz0RxRMuJlc5a6Q1AuBbo3djcFXqmsLdB+ho=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Dec 2024 10:20:46 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "977mfnbbh5"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9WgM+6cAz0RxRMuJlc5a6Q1AuBbo3djcFXqmsLdB+ho="
+        },
+        {
+          "Name": "label",
+          "Value": "Sample.pdf"
+        }
+      ]
+    },
+    {
+      "Route": "Sample.pdf",
+      "AssetFile": "Sample.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "81645"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9WgM+6cAz0RxRMuJlc5a6Q1AuBbo3djcFXqmsLdB+ho=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Dec 2024 10:20:46 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9WgM+6cAz0RxRMuJlc5a6Q1AuBbo3djcFXqmsLdB+ho="
+        }
+      ]
+    }
+  ]
 }

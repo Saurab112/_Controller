@@ -1,14 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Acer\\Desktop\\Controller\\",
+  "WorkspaceRootPath": "C:\\myLearnings\\Controller\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A9E8FD72-B305-45D1-A86E-84DDC8B0D507}|Controller\\Controller.csproj|c:\\users\\acer\\desktop\\controller\\controller\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9E8FD72-B305-45D1-A86E-84DDC8B0D507}|Controller\\Controller.csproj|solutionrelative:controller\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A9E8FD72-B305-45D1-A86E-84DDC8B0D507}|Controller\\_Controller.csproj|c:\\mylearnings\\controller\\controller\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9E8FD72-B305-45D1-A86E-84DDC8B0D507}|Controller\\_Controller.csproj|solutionrelative:controller\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A9E8FD72-B305-45D1-A86E-84DDC8B0D507}|Controller\\Controller.csproj|c:\\users\\acer\\desktop\\controller\\controller\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9E8FD72-B305-45D1-A86E-84DDC8B0D507}|Controller\\Controller.csproj|solutionrelative:controller\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A9E8FD72-B305-45D1-A86E-84DDC8B0D507}|Controller\\_Controller.csproj|c:\\mylearnings\\controller\\controller\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9E8FD72-B305-45D1-A86E-84DDC8B0D507}|Controller\\_Controller.csproj|solutionrelative:controller\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9E8FD72-B305-45D1-A86E-84DDC8B0D507}|Controller\\_Controller.csproj|c:\\mylearnings\\controller\\controller\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9E8FD72-B305-45D1-A86E-84DDC8B0D507}|Controller\\_Controller.csproj|solutionrelative:controller\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9E8FD72-B305-45D1-A86E-84DDC8B0D507}|Controller\\_Controller.csproj|c:\\mylearnings\\controller\\controller\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9E8FD72-B305-45D1-A86E-84DDC8B0D507}|Controller\\_Controller.csproj|solutionrelative:controller\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,17 +26,42 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\myLearnings\\Controller\\Controller\\Models\\Person.cs",
+              "RelativeDocumentMoniker": "Controller\\Models\\Person.cs",
+              "ToolTip": "C:\\myLearnings\\Controller\\Controller\\Models\\Person.cs*",
+              "RelativeToolTip": "Controller\\Models\\Person.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T10:09:59.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\myLearnings\\Controller\\Controller\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Controller\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\myLearnings\\Controller\\Controller\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Controller\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-25T09:46:03.446Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\Controller\\Controller\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "C:\\myLearnings\\Controller\\Controller\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controller\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Acer\\Desktop\\Controller\\Controller\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controller\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAqAAAAAAAAAA==",
+              "ToolTip": "C:\\myLearnings\\Controller\\Controller\\Controllers\\HomeController.cs*",
+              "RelativeToolTip": "Controller\\Controllers\\HomeController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG0AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-25T03:16:59.399Z",
               "EditorCaption": ""
@@ -37,11 +70,11 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\Controller\\Controller\\Program.cs",
+              "DocumentMoniker": "C:\\myLearnings\\Controller\\Controller\\Program.cs",
               "RelativeDocumentMoniker": "Controller\\Program.cs",
-              "ToolTip": "C:\\Users\\Acer\\Desktop\\Controller\\Controller\\Program.cs",
+              "ToolTip": "C:\\myLearnings\\Controller\\Controller\\Program.cs",
               "RelativeToolTip": "Controller\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-25T03:16:28.905Z",
               "EditorCaption": ""

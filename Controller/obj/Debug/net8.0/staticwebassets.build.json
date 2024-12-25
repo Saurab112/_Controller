@@ -1,12 +1,125 @@
 {
   "Version": 1,
-  "Hash": "Zr9ic1vKdDsuIGaX7U34UUPQsBgMPdUONftneKKqZ6c=",
+  "Hash": "DnUXEN4uCskiRkqJ5vn/K2vmj5eLWmhkwzL5NPHqHW8=",
   "Source": "_Controller",
   "BasePath": "_content/_Controller",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "_Controller\\wwwroot",
+      "Source": "_Controller",
+      "ContentRoot": "C:\\myLearnings\\Controller\\Controller\\wwwroot\\",
+      "BasePath": "_content/_Controller",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\myLearnings\\Controller\\Controller\\wwwroot\\Sample.pdf",
+      "SourceId": "_Controller",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\myLearnings\\Controller\\Controller\\wwwroot\\",
+      "BasePath": "_content/_Controller",
+      "RelativePath": "Sample#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "977mfnbbh5",
+      "Integrity": "9WgM+6cAz0RxRMuJlc5a6Q1AuBbo3djcFXqmsLdB+ho=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Sample.pdf"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "Sample.977mfnbbh5.pdf",
+      "AssetFile": "C:\\myLearnings\\Controller\\Controller\\wwwroot\\Sample.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "81645"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9WgM+6cAz0RxRMuJlc5a6Q1AuBbo3djcFXqmsLdB+ho=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Dec 2024 10:20:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "977mfnbbh5"
+        },
+        {
+          "Name": "label",
+          "Value": "Sample.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9WgM+6cAz0RxRMuJlc5a6Q1AuBbo3djcFXqmsLdB+ho="
+        }
+      ]
+    },
+    {
+      "Route": "Sample.pdf",
+      "AssetFile": "C:\\myLearnings\\Controller\\Controller\\wwwroot\\Sample.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "81645"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9WgM+6cAz0RxRMuJlc5a6Q1AuBbo3djcFXqmsLdB+ho=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Dec 2024 10:20:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9WgM+6cAz0RxRMuJlc5a6Q1AuBbo3djcFXqmsLdB+ho="
+        }
+      ]
+    }
+  ]
 }
