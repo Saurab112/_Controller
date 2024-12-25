@@ -4,6 +4,6 @@
     "\\Controller",
     "\\Controller\\Controllers"
   ],
-  "SelectedNode": "\\Controller.sln",
+  "SelectedNode": "\\Controller\\Controllers\\HomeController.cs",
   "PreviewInSolutionExplorer": false
 }

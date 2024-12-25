@@ -110,7 +110,9 @@ namespace _Controller.Controllers
 				return StatusCode(401);
 			}
 
-			return File("/sample.pdf", "application/pdf");
+			//return File("/sample.pdf", "application/pdf");
+			//return new RedirectToActionResult("Books", "Store", new { }); //302 - Found
+			return new RedirectToActionResult("Book", "Store", new { }, permanent: true); //301 - Moved permanently
 		}
 	}
 }
